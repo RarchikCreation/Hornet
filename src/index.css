@@ -1,0 +1,39 @@
+body {
+  background-color: #06070b;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: #07060c;
+  border-radius: 16px;
+  box-shadow: 0 1px 30px rgba(25, 29, 49, 20);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  
+  width: 60%;
+  padding: 5px; 
+
+  margin: 45px auto; 
+
+  outline: 1.5px solid #25262d; 
+  outline-offset: 1px; 
+}
+
+
+.icon {
+  user-select: none;
+  background-color: none;
+  display: block;
+  max-width: 100%;
+  height: 35px;
+  margin: 0 15px;
+  transition: transform 0.2s ease-in-out; 
+  
+}
+
+.icon:hover {
+  transform: scale(1.10);
+}
+
